@@ -1,0 +1,71 @@
+*{
+  font-family: Rubik;
+}
+body{
+  background-color: #282c34;
+}
+h1{
+  margin:50px auto;
+  color: white;
+  width: fit-content;
+}
+#question{
+  width: 100%;
+}
+#qp{
+  display: block;
+  width: 200px;
+  margin: auto auto;
+}
+#qt{
+  display: block;
+  width: fit-content;
+  margin: 20px auto;
+  color: white;
+  font-size: 50px;
+}
+.answers{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.answers p{
+  display: block;
+  background-color: green;
+  height:90%;
+  width: 22%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+.answers p:hover{
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
+}
+#a{
+  background-color: red;
+}
+#b{
+  background-color: blue;
+}
+#c{
+  background-color: green;
+}
+#d{
+  background-color: rgba(0, 255, 255, 0.493);
+}
